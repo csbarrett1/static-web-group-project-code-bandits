@@ -1,5 +1,5 @@
 var products = [
-  {title: "HELLO",
+  {title: "HELLO2",
     price: "$99.99",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis neque ea rem adipisci, hic explicabo iure ab. Reprehenderit natus nihil quo accusamus, officia aut odit iste repudiandae, nisi fugiat, ullam?",
     url: "image.jpg"
