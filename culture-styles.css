@@ -54,7 +54,23 @@ ul {
   margin-right: auto;
 }
 
+section {
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
+article {
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
+  border-bottom: 1px solid lightgrey;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  margin-bottom: -5px;
+}
 
 
 
