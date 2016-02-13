@@ -1,0 +1,101 @@
+#products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  background-color: #A3A6A1;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card > img {
+  display: block;
+  margin: 0 auto;
+  max-height: 189px;
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+
+.card {
+  border: 1px solid black;
+  background-color: #A3A6A1;
+  margin: 5%;
+  box-shadow: 2px 2px 2px 15px black;
+  width: 300px;
+  height: 470px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 18px;
+  padding:  5%;
+}
+
+
+
+html {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #CED1CC;
+}
+
+header {
+  border-bottom: 1px solid lightgrey;
+  background-color: #868884;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 5%;
+}
+
+.nav:hover {
+  opacity: .4;
+}
+
+a {
+  text-decoration: none;
+  color: #242932;
+}
+
+ul {
+  text-align: center;
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+.logo > img {
+  width: 600px;
+}
+
+
+
+
