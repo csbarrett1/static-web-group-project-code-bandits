@@ -1,0 +1,197 @@
+html {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #CED1CC;
+}
+
+/**/
+/*Styling of Nav Bar*/
+/**/
+header {
+  border-bottom: 1px solid lightgrey;
+  background-color: #868884;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 5%;
+}
+
+.nav:hover {
+  opacity: .4;
+}
+
+a {
+  text-decoration: none;
+  color: #242932;
+}
+
+ul {
+  text-align: center;
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+.logo > img {
+  width: 600px;
+}
+
+.content {
+  background-color: #A3A6A1;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**/
+/*Styling of Main Body*/
+/**/
+
+.histbar {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1% 0;
+  padding: 0.2% 0;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+
+}
+
+.founder {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-box {
+  min-width: 25%;
+}
+
+.image-mapbox {
+  min-width: 25%;
+  z-index:1;
+}
+
+.image-scowbox {
+  min-width: 25%;
+  z-index:0;
+}
+
+.founder-img {
+  display: block;
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
+  margin: 15%;
+}
+
+.oldscow-img {
+  display: block;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  margin: 5%;
+  animation: slide-slow 10s infinite;
+}
+
+@keyframes slide-slow {
+  from {
+    margin-left: -40%;
+  }
+  100% {
+    margin-left: 5%;
+  }
+}
+
+.oldmap-img {
+  display: block;
+  width: 125%;
+  height: auto;
+  border-radius: 10px;
+  margin: 5%;
+}
+
+.founder-text > span , .scow-text > span, .growth-title > span {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 2% 0 1% 0;
+}
+
+.founder-text {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  text-align: justify;
+  margin: 8% 2% 5% 4%;
+}
+
+.scow-text {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  text-align: justify;
+  margin: 2% 2% 3% 4%;
+}
+
+.animated-map {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid black;
+}
+
+.eagle-img {
+  max-width: 95%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.dominance-text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  text-align: justify;
+  max-width: 40%;
+  margin: 8% 2% 15% 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
